@@ -14,6 +14,7 @@ public class Registration
 		 System.setProperty("webdriver.chrome.driver", "C:\\libs\\chromedriver.exe");
                   ChromeDriver driver = new ChromeDriver();
                   driver.get("https://pos.uat4.amway.com.ph/registration");
+                  System.out.println("checkbranch");
 
                   driver.get("https://pos.uat4.amway.com.ph/registration");
                   driver.get("https://pos.uat4.amway.com.ph/registration");
